@@ -1,0 +1,23 @@
+{
+  "name": "Voosh-Assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/junaid-12junaid/Voosh-Assignment.git",
+  "author": "junaid-12junaid <junaidullakhan619@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.574.0",
+    "@aws-sdk/credential-provider-ini": "^3.572.0",
+    "aws-sdk": "^2.1618.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0"
+  }
+}
